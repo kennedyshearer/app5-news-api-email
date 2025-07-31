@@ -5,7 +5,7 @@ from send_email import send_email
 date = time.strftime("%Y-%m-%d")
 topic = "tesla"
 
-api_key = "a0860cae40a9404ca4315c8bf416c069"
+api_key = "{API-KEY-HERE}"
 url = "https://newsapi.org/v2/everything?" \
        f"q={topic}&" \
        f"from={date}&sortBy=publishedAt&apiKey=" \
